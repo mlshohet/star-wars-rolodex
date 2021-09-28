@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Distant Galaxy";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../SFDistantGalaxy.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "Distant Galaxy";
+  font-weight: 300;
+  color: gold;
+}
