@@ -13,9 +13,9 @@ class MainPage extends Component {
 	}
 
 	filteredChars = () => {
-		return this.props.chars.filter(char => {
-			return char.name.toLowerCase().includes(this.props.search.toLowerCase());
-		})
+		return this.props.chars.filter(char => 
+			char.name.toLowerCase().includes(this.props.search.toLowerCase())
+		)
 	}
 
   	render() {
