@@ -35,7 +35,7 @@ const Card = ({
 
   useEffect(() => {
     let unmounted = false;
-    if (starships.length > 0) {
+    if (starships.length) {
         setIsFetchingData(true);
           fetch(starships[0])
             .then(res => res.json())
@@ -55,7 +55,7 @@ const Card = ({
     
   useEffect(() => {
     let unmounted = false;
-    if (vehicles.length > 0) {
+    if (vehicles.length) {
       setIsFetchingData(true);
       fetch(vehicles[0])
             .then(res => res.json())
